@@ -15,7 +15,7 @@ manager.main()
 
 class Main:
     def __init__(self):
-        os.system("title " + "flipper0110 - " + VERSION)
+        os.system("title " + "flipper0110 - v" + VERSION)
         print(f"""{Fore.LIGHTYELLOW_EX}
 __________________________________________________________ ╨╨▓@╓____________________________________________
 ____________________,╖╖@²²²²²²²²╙W╖╖╖______________________╖╖_ ╙╫W__________________________________________
@@ -74,5 +74,5 @@ if __name__ == '__main__':
     try:
         Main()
     except KeyboardInterrupt:
-        print(f"{Fore.RED}\n\nExiting...{Style.RESET_ALL}")
+        input(f"{Fore.RED}\n\nPress enter to exit...{Style.RESET_ALL}")
         exit(0)

@@ -74,5 +74,9 @@ if __name__ == '__main__':
     try:
         Main()
     except KeyboardInterrupt:
-        input(f"{Fore.RED}\n\nPress enter to exit...{Style.RESET_ALL}")
-        exit(0)
+        # Try catch for another keyboard interrupt
+        try:
+            input(f"{Fore.RED}\n\nPress enter to exit...{Style.RESET_ALL}")
+            exit(0)
+        except KeyboardInterrupt:
+            exit(0)

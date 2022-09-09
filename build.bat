@@ -1,0 +1,1 @@
+python3 -m PyInstaller -F -n flipper0110 -i on_orange.ico main.py

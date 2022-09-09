@@ -7,7 +7,7 @@ from colorama import Fore, Style
 from functions import manager
 from menu_handler import get_menu
 
-VERSION = "0.0.1"
+VERSION = "0.0.1-alpha.2"
 AUTHORS = "crqch"
 
 manager.main()
